@@ -1,0 +1,28 @@
+\documentclass[12pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\signature{Nutthakorn Chalaemwongwan\\
+Department of Computer Engineering, KOSEN-KMITL\\
+King Mongkut's Institute of Technology Ladkrabang\\
+Bangkok, Thailand\\
+nutthakorn.ch@kmitl.ac.th}
+
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{Editor-in-Chief\\Data in Brief\\Elsevier}
+
+\opening{Dear Editor,}
+
+I am submitting a data article entitled \textbf{``SALAD: SOC Alert Labeled Analysis Dataset --- A Unified Benchmark for Alert Triage, Prioritization, and Classification''} for consideration in \textit{Data in Brief}.
+
+Security Operations Center (SOC) alert triage is a pressing challenge: analysts face over 4,000 alerts daily, yet no public dataset provides SOC alerts with triage decision labels, priority scores, and MITRE ATT\&CK mapping in a unified, benchmark-ready format. Existing public datasets such as CIC-IDS2017 and UNSW-NB15 offer raw network traffic without the SOC-specific metadata that researchers in machine learning, reinforcement learning, and large language models need to develop and compare alert triage systems. SALAD fills this gap. It contains 2,778,424 alerts in a standardized 29-field schema with five layers of computed metadata---triage decisions, priority scores, difficulty levels, MITRE ATT\&CK labels, and natural language descriptions---none of which exist in the source data. The dataset defines four benchmark tasks with baseline results and evaluation scripts, and it is publicly available on Zenodo (DOI: 10.5281/zenodo.18912306), HuggingFace, and GitHub under a CC-BY~4.0 license.
+
+This manuscript is a standalone data article. It has not been published elsewhere and is not under consideration at any other journal. I declare no competing interests.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
