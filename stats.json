@@ -1,0 +1,19 @@
+{
+  "dataset_name": "SALAD",
+  "full_name": "SOC Alert Labeled Analysis Dataset",
+  "version": "1.0",
+  "license": "CC-BY 4.0",
+  "total_alerts": 2778424,
+  "sources": {
+    "CICIDS2017": 2520751,
+    "UNSW_NB15": 257673
+  },
+  "splits": {
+    "train": 1944887,
+    "val": 416756,
+    "test": 416781
+  },
+  "malicious_ratio": 0.2125,
+  "columns": 29,
+  "attack_categories": 15
+}
